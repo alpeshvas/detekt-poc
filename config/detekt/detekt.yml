@@ -784,7 +784,7 @@ style:
     excludeImports:
       - 'java.util.*'
 
-headout-common-detekt-rules:
+abcdef:
   active: true
   BigDecimalRule:
     active: true

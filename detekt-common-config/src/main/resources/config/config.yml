@@ -1,4 +1,4 @@
-headout-common-detekt-rules:
+abcdef:
   active: true
   BigDecimalRule:
     active: true
