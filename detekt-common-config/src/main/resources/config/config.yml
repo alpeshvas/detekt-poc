@@ -1,0 +1,6 @@
+headout-common-detekt-rules:
+  active: true
+  BigDecimalRule:
+    active: true
+  NoDummyClassRule:
+    active: true
