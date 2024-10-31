@@ -11,8 +11,12 @@ class NoDummyClassRuleTest {
     @Test
     fun `reports class named Dummy`() {
         val code = """
-            class Dummy {
-            }
+class Dummy {
+    fun example() {
+        val bd = BigDecimal(BIG_DECIMAL_HUNDRED)
+        print(bd)
+    }
+}
         """.trimIndent()
 
         val findings = rule.compileAndLint(code)
