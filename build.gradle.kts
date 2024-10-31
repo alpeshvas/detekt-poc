@@ -20,6 +20,10 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
 
+detekt {
+    allRules = true
+}
+
 tasks.test {
     useJUnitPlatform()
 }
